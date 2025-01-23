@@ -1,0 +1,155 @@
+{
+  "categories": [
+    {
+      "name": "Flutter",
+      "sections": [
+        {
+          "name": "Basics",
+          "questions": [
+            {
+              "text": "What is Flutter?",
+              "options": [
+                "A programming language",
+                "A framework for building cross-platform applications",
+                "A database management tool",
+                "An operating system"
+              ],
+              "correctAnswer": "A framework for building cross-platform applications",
+              "explanation": "Flutter is an open-source UI software development kit created by Google for building natively compiled applications for mobile, web, and desktop from a single codebase."
+            },
+            {
+              "text": "Which programming language is used for Flutter development?",
+              "options": [
+                "Swift",
+                "JavaScript",
+                "Dart",
+                "Kotlin"
+              ],
+              "correctAnswer": "Dart",
+              "explanation": "Flutter uses Dart, a language optimized for fast apps on multiple platforms."
+            },
+            {
+              "text": "What is the command to create a new Flutter project?",
+              "options": [
+                "flutter new",
+                "flutter create",
+                "flutter init",
+                "flutter start"
+              ],
+              "correctAnswer": "flutter create",
+              "explanation": "The 'flutter create' command is used to generate a new Flutter project with the necessary files and structure."
+            }
+          ]
+        },
+        {
+          "name": "Widgets",
+          "questions": [
+            {
+              "text": "Which widget is used for displaying text in Flutter?",
+              "options": [
+                "Container",
+                "Row",
+                "Text",
+                "Column"
+              ],
+              "correctAnswer": "Text",
+              "explanation": "The Text widget in Flutter is used to display a string of text with optional styling."
+            },
+            {
+              "text": "What is a StatelessWidget?",
+              "options": [
+                "A widget that does not have mutable state",
+                "A widget that changes its state dynamically",
+                "A widget used for animations",
+                "A widget for handling HTTP requests"
+              ],
+              "correctAnswer": "A widget that does not have mutable state",
+              "explanation": "StatelessWidget is immutable and does not change its state during the widget's lifetime."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dart",
+      "sections": [
+        {
+          "name": "Basics",
+          "questions": [
+            {
+              "text": "What is Dart primarily used for?",
+              "options": [
+                "Backend development",
+                "Game development",
+                "Mobile and web app development",
+                "Machine learning"
+              ],
+              "correctAnswer": "Mobile and web app development",
+              "explanation": "Dart is optimized for mobile and web app development, particularly with Flutter."
+            },
+            {
+              "text": "How do you declare a constant in Dart?",
+              "options": [
+                "var",
+                "final",
+                "const",
+                "static"
+              ],
+              "correctAnswer": "const",
+              "explanation": "The 'const' keyword in Dart is used to define compile-time constants."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Swift",
+      "sections": [
+        {
+          "name": "Basics",
+          "questions": [
+            {
+              "text": "What is Swift?",
+              "options": [
+                "A web framework",
+                "A programming language for iOS and macOS",
+                "A database system",
+                "A cloud service"
+              ],
+              "correctAnswer": "A programming language for iOS and macOS",
+              "explanation": "Swift is a powerful programming language developed by Apple for building apps on iOS, macOS, watchOS, and tvOS."
+            },
+            {
+              "text": "How do you define a variable in Swift?",
+              "options": [
+                "var",
+                "let",
+                "def",
+                "dim"
+              ],
+              "correctAnswer": "var",
+              "explanation": "The 'var' keyword is used to declare mutable variables in Swift."
+            }
+          ]
+        },
+        {
+          "name": "Control Flow",
+          "questions": [
+            {
+              "text": "What keyword is used to create a loop in Swift?",
+              "options": [
+                "loop",
+                "repeat",
+                "for",
+                "while"
+              ],
+              "correctAnswer": "for",
+              "explanation": "The 'for' keyword is used to create a loop that iterates over a sequence in Swift."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
